@@ -1,0 +1,9 @@
+Tạo nên một cấu trúc dữ liệu cây nhị phân tìm kiếm của riêng mình để quản lý hồ sơ nhân viên, 
+trong đó sẽ chứa các thao tác như thêm, xóa, tìm kiếm, duyệt, cân bằng cây, đếm số phần tử của cây.
+
+Đọc dữ liệu từ bảng ma trận (chi tiết trong mục Tổng quan dự án) lưu vào ma trận trọng số để 
+biểu diễn đồ thị đường đi giữa các thành phố, trong đó giá trị INF chính là ∞ ( Khi lập trình 
+sinh viên giả sử ∞ là một giá trị rất lớn, ví dụ là 9999, còn các giá trị khác ∞ sẽ nhỏ hơn 9999).
+ Dựa vào ma trận trọng số sinh viên cũng có thể duyệt đồ thị giống như dựa vào ma trận 
+liền kề (Trừ giá trị trên đường chéo chính, những giá trị có giá trị 9999 sẽ tương ứng
+ với 0 trong ma trận liền kề, ngược lại sẽ tương ứng với 1 trong ma trận liền kề)
